@@ -10,8 +10,8 @@ Features:
 
 Installation:
 To use the script, you just need Python installed on your system. And then follow the given steps.
-* Download the script on your system
-* run 'python google_photos_metadata_fixer.py "<ENTER PATH OF FOLDER CONTAINTING ZIP FILES>"'
+* Download the script 'google_photos_metadata_fixer.py' on your system
+* run 'python google_photos_metadata_fixer.py "PATH OF FOLDER CONTAINTING ZIP FILES"'
 
 Note:
 Here are a few things that can help you in the process
