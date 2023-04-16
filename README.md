@@ -27,4 +27,29 @@ How it Works:
 * Moves all files to output destination and updates the metadata
 * If no JSON found for the file the file will be moved to /FAILED dir
 
+Sample Output:
+Fixing Google Takeout MetaData :  /Users/beast/Downloads
+Found 7 zip files, Unzipping...
+         |||||||||||||||||||||||||||||||||||||||||||||||||| (7/7)
+Creating Intermediate Locations...
+         |||||||||||||||||||||||||||||||||||||||||||||||||| (62/62)
+Moving Files to Intermediate Location...
+         |||||||||||||||||||||||||||||||||||||||||||||||||| (19606/19606)
+Creating File Pairs...
+         |||||||||||||||||||||||||||||||||||||||||||||||||| (20/20)
+Merging Files with metadata...
+         |||||||||||||||||||||||||||||||||||||||||||||||||| (9266/9277)
+
+Moving Remaining Files to  /Users/beast/Downloads/Output-20230417T010529/FAILED
+         |||||||||||||||||||||||||||||||||||||||||||||||||| (983/983)
+Cleaning Directories...
+         |||||||||||||||||||||||||||||||||||||||||||||||||| (8/8)
+
+All Files (MetaData+File) :  19547
+JSON Files                :  9287
+Files with MetaData       :  9277
+Files without MetaData    :  983
+Finished! Files saved in the following location
+/Users/beast/Downloads/Output-20230417T010529
+
 Thank you for checking out this project. I hope it helps you fix your photo metadata and saves you time and effort!
