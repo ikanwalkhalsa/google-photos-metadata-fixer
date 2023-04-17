@@ -17,8 +17,7 @@ all_rec_pattern = '/takeout-*/Takeout/*/*/**'
 
 def print_bar(i:int, l:int, n_bars=50)->None:
     print ("\033[A                             \033[A")
-    n_pipes = n_bars if i==l else i // (l // n_bars) if l > n_bars else (n_bars // l) * i
-    n_pipes %= (n_bars+1)
+    n_pipes = int((i / l) * n_bars)
     bar = '|'*n_pipes + '-'*(n_bars-n_pipes)
     print('\t', bar, f'({i}/{l})')
 
